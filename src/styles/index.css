@@ -1,12 +1,19 @@
-
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.main{
+    text-align: center;
+    background: black;
+}
+.main div{
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    height: 100px;
+    background: black;
+    color: white;
+    padding: 10px; 
+    margin: 3px;  
+}
+.digitbackground{
+    background: rgb(43, 42, 42);
+    border: gray, 1px;
+    border-radius: 5px;
+}
